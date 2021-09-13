@@ -8,8 +8,7 @@
 
 html,
 body {
-    max-width: 1440px;
-    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -69,14 +68,14 @@ img {
     display: flex;
 }
 
-.top__banner {
+.banner {
     display: flex;
     justify-content: space-between;
     padding-bottom: 250px;
 }
 
-.top__banner-left {
-    max-width: 48%;
+.banner-left {
+    max-width: 41%;
     padding-left: 120px;
 }
 
@@ -90,18 +89,22 @@ img {
     padding-bottom: 25px;
 }
 
-.top__banner-text {
-    font-size: 14px;
+.banner__top-text {
     font-weight: 700;
-    line-height: 32px;
     padding-bottom: 42px;
 }
 
-.top__button {
+.banner-text {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.button {
     display: flex;
 }
 
-.top__button-left {
+.button-left {
     margin-right: 16px;
 }
 
@@ -167,7 +170,7 @@ input::-webkit-input-placeholder {
     justify-content: space-between;
 }
 
-.advantages__colum {
+.advantages__column {
     max-width: 35%;
     max-height: 447px;
 }
@@ -203,24 +206,21 @@ input::-webkit-input-placeholder {
     margin-bottom: 41.69px;
 }
 
-.text {
-    color: #5B6C94;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 32px;
+.advantages__inner {
+    max-width: 300px;
+    padding-top: 30px;
 }
 
-.text_mod {
-    max-width: 300px;
-    max-height: 192px;
-    padding-top: 30px;
-    text-align: left;
+.banner-text_mod {
+    color: #5B6C94;
+    font-weight: 500;
 }
 
 .middle-content {
     display: flex;
     justify-content: space-between;
-    margin: 18px 120px 130px 120px;
+    padding:18px 0 130px 0 ;
+    margin: 0 120px;
 }
 
 .middle-content__image {
@@ -264,13 +264,13 @@ input::-webkit-input-placeholder {
     margin-bottom: 37px;
 }
 
-.subscribe_middle-content {
-    max-width: 178px;
+.middle-content__subscribe {
+    width: 178px;
     margin-top: 40px;
 }
 
 .reviews {
-    margin-left: 120px;
+    margin: 0 0 160px 120px;
     position: relative;
 }
 
@@ -370,8 +370,9 @@ input::-webkit-input-placeholder {
     color: #777777;
 }
 
-.notice {
-    padding: 160px 19%;
+.subscribe-form {
+    padding: 0 19%;
+    margin-bottom: 160px;
 }
 
 .text-titles_larger {
@@ -379,7 +380,7 @@ input::-webkit-input-placeholder {
     margin-bottom: 17px;
 }
 
-.notice__title {
+.subscribe-form__title {
     font-size: 34px;
     font-weight: 500;
     line-height: 45px;
@@ -388,7 +389,7 @@ input::-webkit-input-placeholder {
     padding-bottom: 57px;
 }
 
-.top__button_center {
+.button_center {
     justify-content: center;
 }
 
@@ -414,7 +415,7 @@ input::-webkit-input-placeholder {
     padding: 0 11px;
 }
 
-.footer__inner-text {
+.footer__copyrights {
     text-align: center;
     padding-bottom: 3px;
 }
